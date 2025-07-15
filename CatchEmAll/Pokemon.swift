@@ -64,6 +64,5 @@ class Pokemons {
             // call the function again until the base case is true
             await loadAllPokemons()
         }
-        
     }
 }

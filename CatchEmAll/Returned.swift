@@ -40,9 +40,3 @@ struct Other: Codable {
 struct OfficialArtwork: Codable {
     var front_default: String?
 }
-
-/**
-    Main (Fast lane): User interface tasks execute here
- 
-    Background: For stuff that might take more time & that shouldn't slow-down tasks in the main thread
- */

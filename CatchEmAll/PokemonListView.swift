@@ -68,7 +68,6 @@ struct PokemonListView: View {
             $0.id == pokemon.id}) else { return 0 }
         return index + 1
     }
-    
 }
 
 #Preview {
